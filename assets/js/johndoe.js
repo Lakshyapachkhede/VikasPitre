@@ -67,7 +67,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
 
   console.log(emailParams);
 
-  emailjs.send('service_d2tie8u', 'template_biemsns', emailParams)
+  emailjs.send('service_l5tbkmn', 'template_b4s5xwz', emailParams)
       .then(() => {
           alert("Message sent successfully!");
       })
