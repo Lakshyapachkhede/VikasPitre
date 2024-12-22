@@ -11641,9 +11641,9 @@ pre .code {
 }
 
 @media (max-width: 991.98px) {
-  .contact {
+  /* .contact {
     padding: 300px 0 0;
-  }
+  } */
   .contact .contact-form-card {
     border-bottom: 1px solid #dee2e6;
   }
