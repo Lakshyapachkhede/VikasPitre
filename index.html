@@ -279,7 +279,12 @@
                             <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">20+</h1>
+                            <h1 class="text-danger font-weight-bold font40">
+                                <span id="years-experience"></span>+
+                            </h1>
+                            <script>
+                                document.getElementById("years-experience").textContent = new Date().getFullYear() - 2004;
+                            </script>
                             <p class="text-light mb-1">Years of Experience</p>
                         </div>
                     </div>
